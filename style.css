@@ -4,4 +4,16 @@
 
 #KyivRegion {
 	cursor: pointer;
+	opacity: 0.5;
 }
+
+#fullMap {
+
+}
+
+/* #someImg {
+	position: absolute;
+	top: 170px;
+	left: 400px;
+	opacity: 0.5;
+} */
