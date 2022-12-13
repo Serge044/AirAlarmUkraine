@@ -2,12 +2,17 @@
 	box-sizing: border-box;
 }
 
+body {
+
+}
+
 #KyivRegion {
 	cursor: pointer;
 }
 
 #fullMap {
-
+display: flex;
+flex-wrap: wrap;
 }
 
 /* #someImg {
@@ -20,8 +25,8 @@
 
 @media (max-width: 480px) {
 	#fullMap {
-		transform: scale(0.5);
-		
-		}
+	/* width: 100%; */
+	/* transform: scale(0.5); */
+	}
   }
   
