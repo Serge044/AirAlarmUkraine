@@ -4,7 +4,6 @@
 
 #KyivRegion {
 	cursor: pointer;
-	opacity: 0.5;
 }
 
 #fullMap {
@@ -16,4 +15,13 @@
 	top: 170px;
 	left: 400px;
 	opacity: 0.5;
+	z-index: 1;
 } */
+
+@media (max-width: 480px) {
+	#fullMap {
+		transform: scale(0.5);
+		
+		}
+  }
+  
